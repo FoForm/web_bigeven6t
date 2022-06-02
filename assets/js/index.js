@@ -41,9 +41,13 @@ $('.layui-tui').click(function(){
             localStorage.removeItem("token");
             // 重新跳转到登录页面
             location.href = "/login.html";
+
         }
     );
 })
+function change(){
+    $('#change').attr('class','layui-this').next().attr('class','')
+}
 
 
 
